@@ -1,6 +1,9 @@
 *{
 
 }
+main{
+  font-family: 'Times New Roman', Times, serif;
+}
 body{
     background-color:#cfb172 ;
 }
@@ -41,4 +44,12 @@ justify-content: space-between;
   .topnav a.active {
     background-color: #204a1d;
     color: white;
+  }
+  .about-me{
+    display: flex;
+    padding: 20px;
+    margin: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #575551;
   }
